@@ -1,0 +1,31 @@
+{
+  "name": "api-rest-node.js",
+  "version": "1.0.0",
+  "description": "API-REST-NODE.JS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoslfreire/API-REST-NODE.JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoslfreire/API-REST-NODE.JS/issues"
+  },
+  "homepage": "https://github.com/marcoslfreire/API-REST-NODE.JS#readme",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^22.10.6",
+    "eslint": "^8.57.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "fastify": "^5.2.1"
+  }
+}
